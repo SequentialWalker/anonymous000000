@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>SeqWalker:Sequential-Horizon Vision-and-Language Navigation with Hierarchical Planning</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">SeqWalker:Sequential-Horizon Vision-and-Language Navigation with Hierarchical Planning</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="Anonymous" target="_blank">Anonymous</a><sup>*</sup>,</span>
+                  </div>
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/SequentialWalker/code" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>open source code</span>
+                  </a>
+                </span>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Single image display with size control -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div class="single-image-container">
+        <div class="image-with-caption">
+          <!-- 修改后的图片容器 -->
+          <div class="image-wrapper" style="max-width: 1200px; margin: 0 auto;">
+            <img 
+              src="static/images/F1.png" 
+              alt="Customization performance comparison"
+              style="width: 100%; height: auto; border: 1px solid #eee; border-radius: 4px;"
+            >
+          </div>
+          <h2 class="subtitle has-text-centered mt-4" style="max-width: 1200px; margin: 0 auto;">
+            (a) SkillsCrafter is able to evolve and learn new skills based on learned skills. It maintains a skill knowledge base that stores learned knowledge to allow for efficient learning of new skills using shared knowledge of old skills, and for performing any unknown skill in the open world using previously learned knowledge. (b) Skills catastrophic forgetting under lifelong learning setting. (c) Our SkillsCrafter has a good anti-forgetting performance.
+          </h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  /* 响应式调整 */
+  @media screen and (max-width: 768px) {
+    .image-wrapper {
+      max-width: 50% !important;
+    }
+    .subtitle {
+      padding: 0 15px;
+    }
+  }
+</style>
+
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container" style="max-width: 1000px; margin: 0 auto;">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Sequential-Horizon Vision-and-Language Navigation (SH-VLN) presents a challenging scenario where agents should sequentially execute multi-task trajectory navigation guided by complex, long-horizon natural language instructions. Current vision-and-language navigation models exhibit significant performance degradation with such instructions, as information overload impairs the agent's ability to attend to observationally relevant details. To address this problem, we propose SeqWalker, a novel navigation model built on a hierarchical planning framework. Our SeqWalker features: (1) A High-Level Planner that dynamically selects global instructions into contextually relevant sub-instructions based on the agent's current visual observations, thus reducing cognitive load; (2) A Low-Level Planner incorporating an Exploration-Verification strategy that leverages the inherent logical structure of instructions for trajectory error correction. To evaluate SH-VLN performance, we also extend the IVLN dataset and establish a new benchmark. Extensive experiments are performed to demonstrate the effectiveness and superiority of SeqWalker.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+<!-- Single image display with size control -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div class="single-image-container">
+        <div class="image-with-caption">
+          <!-- 修改后的图片容器 -->
+          <div class="image-wrapper" style="max-width: 1200px; margin: 0 auto;">
+            <img 
+              src="static/images/F2.png" 
+              alt="Customization performance comparison"
+              style="width: 100%; height: auto; border: 1px solid #eee; border-radius: 4px;"
+            >
+          </div>
+          <h2 class="subtitle has-text-centered mt-4" style="max-width: 1200px; margin: 0 auto;">
+           Illustration of the proposed Sequential-Horizon Vision-and-Language Navigation (SH-VLN) task and our SeqWalker model. Different from traditional VLN, SH-VLN requires navigation agents to follow a sequential multi-task trajectory navigation, while users tend to provide complex long instructions, posing greater challenges. Our SeqWalker adopts a Hierarchical Planning strategy, where the High-Level Planner selects sub-tasks and instruction phrases based on the agent's observations, and the Low-Level Planner provides actions for robust navigation using a proposed Exploration and Verification strategy.
+          </h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Single image display with size control -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <!-- 横向两列 -->
+      <div class="columns is-vcentered">
+        <!-- 左图 -->
+        <div class="column is-half has-text-centered">
+          <div class="image-wrapper" style="max-width: 90%; margin: 0 auto;">
+            <img 
+              src="static/images/sm3.png" 
+              alt="Simulator robotic skill tasks"
+              style="width: 100%; height: auto; border: 1px solid #eee; border-radius: 4px;">
+            <p class="subtitle is-6 mt-2">(a)Statistics of the transformed datasets.</p>
+          </div>
+        </div>
+
+        <!-- 右图 -->
+        <div class="column is-half has-text-centered">
+          <div class="image-wrapper" style="max-width: 90%; margin: 0 auto;">
+            <img 
+              src="static/images/sm2.png" 
+              alt="Real-world robotic skill tasks"
+              style="width: 100%; height: auto; border: 1px solid #eee; border-radius: 4px;">
+            <p class="subtitle is-6 mt-2">(b)Navigation Word Cloud.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 图片下方的说明文字 -->
+        <h2 class="subtitle has-text-centered mt-4" style="max-width: 1200px; margin: 0 auto;">
+          To evaluate the proposed SH-VLN task, we extend the IVLN IR2R-CE dataset \cite{IVLN} and propose a new benchmark.To construct such trajectories, we select and connect pairs from the IR2R-CE dataset whose end- and start-points align. Corresponding instructions are concatenated to ensure semantic coherence using LLM.  In addition to generating sequential-horizon trajectories, we also enrich the instructions to address their lack of sufficient discriminative granularity to distinguish semantically similar subtasks in multi-trajectory navigation.
+        </h2>
+    </div>
+  </div>
+</section>
+
+
+<style>
+  /* 视频容器样式 */
+  .video-container {
+    max-width: 800px;
+    margin: 0 auto 3rem auto;
+    background: #f5f5f5;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  }
+  
+  /* 视频元素样式 */
+  .centered-video {
+    width: 100%;
+    max-height: 500px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 4px;
+  }
+  
+  /* 响应式调整 */
+  @media screen and (max-width: 768px) {
+    .video-container {
+      padding: 10px;
+    }
+    .centered-video {
+      max-height: 300px;
+    }
+  }
+</style>
+
+<!-- <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer> -->
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
