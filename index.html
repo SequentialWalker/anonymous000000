@@ -244,41 +244,75 @@
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
-      <h1 class="title is-2 has-text-centered has-text-weight-bold mb-5">
-        Simulation Environment Demonstrations
+
+      <!-- 图1：照片 -->
+      <div class="has-text-centered mb-5">
+        <div class="image-wrapper" style="max-width: 1000px; margin: 0 auto;">
+          <img 
+            src="static/images/exper1.png" 
+            alt="Photograph of the UR5 robotic system"
+            style="width: 100%; height: auto; border: 1px solid #eee; border-radius: 4px;"
+          >
+        </div>
+        <h2 class="subtitle is-6 mt-2">
+          (a): The test results for SeqWalker compared to SOTA methods on the SH IR2R-CE datasets. TL is in meters, and OS, nDTW, SR, SPL, CPsubT, t-nDTW are reported as percentages. Results are presented as mean ± standard deviation.
+        </h2>
+      </div>
+
+      <!-- 图2：示意图 -->
+      <div class="has-text-centered mb-5">
+        <div class="image-wrapper" style="max-width: 1000px; margin: 0 auto;">
+          <img 
+            src="static/images/exper2.png" 
+            alt="Illustration of the UR5 robotic system"
+            style="width: 100%; height: auto; border: 1px solid #eee; border-radius: 4px;"
+          >
+        </div>
+        <h2 class="subtitle is-6 mt-2">
+          (b):The test results for SeqWalker compared to SOTA methods on the IR2R-CE datasets. TL and NE are in metres, and OS, nDTW, SR, SPL, and t-nDTW are reported as percentages. The results are reported as x_x
+        </h2>
+      </div>
+
+
+    </div>
+  </div>
+</section>
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container has-text-centered">
+
+      <!-- 居中标题 -->
+      <h1 class="title is-2 has-text-weight-bold mb-5">
+        Navigation Demonstrations
       </h1>
-      
-       <!-- 任务12 -->
-      <div class="columns is-centered mb-6">
-        <!-- GIF 1 -->
-        <div class="column is-one-third has-text-centered">
-          <img 
-            src="static/images/output.gif" 
-            alt="GIF 1"
-            style="max-width: 100%; border: 1px solid #ddd; border-radius: 6px;">
-        </div>
-      
-        <!-- GIF 2 -->
-        <div class="column is-one-third has-text-centered">
-          <img 
-            src="static/images/output2.gif" 
-            alt="GIF 2"
-            style="max-width: 100%; border: 1px solid #ddd; border-radius: 6px;">
-        </div>
-      
-        <!-- GIF 3 -->
-        <div class="column is-one-third has-text-centered">
-          <img 
-             src="static/images/output3.gif" 
-            alt="GIF 3"
-            style="max-width: 100%; border: 1px solid #ddd; border-radius: 6px;">
-        </div>
+
+      <!-- GIF 列表：垂直排列，每个居中 -->
+      <div class="mb-6">
+        <img 
+          src="static/images/output.gif" 
+          alt="GIF 1"
+          style="max-width: 480px; width: 100%; border: 1px solid #ddd; border-radius: 6px; margin: 0 auto;">
+      </div>
+
+      <div class="mb-6">
+        <img 
+          src="static/images/output2.gif" 
+          alt="GIF 2"
+          style="max-width: 480px; width: 100%; border: 1px solid #ddd; border-radius: 6px; margin: 0 auto;">
+      </div>
+
+      <div class="mb-6">
+        <img 
+          src="static/images/output3.gif" 
+          alt="GIF 3"
+          style="max-width: 480px; width: 100%; border: 1px solid #ddd; border-radius: 6px; margin: 0 auto;">
       </div>
 
     </div>
-
   </div>
 </section>
+
 
 <style>
   /* 视频容器样式 */
